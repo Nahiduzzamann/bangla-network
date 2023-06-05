@@ -53,7 +53,7 @@ const Navbar = () => {
                                 Career
                             </Link></li>
                             <li><Link
-                                to="#"
+                                to="/contact"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Contact
@@ -96,7 +96,7 @@ const Navbar = () => {
                             Career
                         </Link></li>
                         <li><Link
-                            to="#"
+                            to="/contact"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Contact
