@@ -1,34 +1,41 @@
-import { FaBeer } from 'react-icons/fa';
+
+import { FaAngellist } from "react-icons/fa";
+import { FaEtsy } from "react-icons/fa";
+import { FaUserInjured } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
+import { FaMobile } from "react-icons/fa";
+import { FaLaptop } from "react-icons/fa";
+
 const Services = () => {
     const services = [
         {
             title: "Web Application Development",
-            icon: <FaBeer className="w-8 h-8 text-gray-500" />,
+            icon: <FaLaptop className="w-8 h-8 text-gray-500" />,
             description: "We offer custom web application development services tailored to meet your specific business needs.",
         },
         {
             title: "Mobile Application Development",
-            icon: <FaBeer className="w-8 h-8 text-gray-500" />,
+            icon: <FaMobile className="w-8 h-8 text-gray-500" />,
             description: "Our team specializes in developing high-quality mobile applications for both iOS and Android platforms.",
         },
         {
             title: "Software Security",
-            icon: <FaBeer className="w-8 h-8 text-gray-500" />,
+            icon: <FaAngellist className="w-8 h-8 text-gray-500" />,
             description: "We prioritize the security of your software and ensure that it is protected against potential threats.",
         },
         {
             title: "Wordpress Development",
-            icon: <FaBeer className="w-8 h-8 text-gray-500" />,
+            icon: <FaWordpress className="w-8 h-8 text-gray-500" />,
             description: "We provide professional Wordpress development services to help you create a stunning and functional website.",
         },
         {
             title: "E-Commerce Development",
-            icon: <FaBeer className="w-8 h-8 text-gray-500" />,
+            icon: <FaEtsy className="w-8 h-8 text-gray-500" />,
             description: "Our team has expertise in developing secure and scalable e-commerce solutions for your online business.",
         },
         {
             title: "UI/UX Development",
-            icon: <FaBeer className="w-8 h-8 text-gray-500" />,
+            icon: <FaUserInjured className="w-8 h-8 text-gray-500" />,
             description: "We focus on creating intuitive and visually appealing user interfaces to enhance the user experience.",
         },
     ];
@@ -43,13 +50,13 @@ const Services = () => {
                             {services.map((service, index) => (
                                 <div
                                     key={index}
-                                    className="p-6 bg-white rounded-lg shadow transition-shadow duration-300 hover:shadow-xl"
+                                    className="p-6 bg-gray-400 rounded-lg shadow hover:bg-gray-700 hover:shadow-lg transform hover:scale-110 transition-all duration-500"
                                 >
                                     <div className="flex items-center justify-center mb-4">
                                         {service.icon}
                                     </div>
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-2">{service.title}</h3>
-                                    <p className="text-gray-600">{service.description}</p>
+                                    <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
+                                    <p className="text-gray-200">{service.description}</p>
                                 </div>
                             ))}
                         </div>
