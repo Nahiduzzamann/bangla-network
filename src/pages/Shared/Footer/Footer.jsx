@@ -14,7 +14,7 @@ const Footer = () => {
                             dignissim bibendum. Aenean tristique nulla vitae tristique cursus.
                         </p>
                         <p className="text-gray-300 mb-4">
-                            <strong>Contact:</strong> 123-456-7890
+                            <strong>Contact:</strong> +8801713337752
                         </p>
                     </div>
                     <div>
