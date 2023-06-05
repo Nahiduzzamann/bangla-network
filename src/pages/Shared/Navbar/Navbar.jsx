@@ -35,7 +35,7 @@ const Navbar = () => {
                                 About
                             </Link>
                             <li><Link
-                                to="#"
+                                to="/ourServices"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Our Services
@@ -78,7 +78,7 @@ const Navbar = () => {
                             About
                         </Link>
                         <li><Link
-                            to="#"
+                            to="/ourServices"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Our Services

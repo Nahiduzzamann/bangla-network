@@ -17,37 +17,36 @@ const Footer = () => {
                             <strong>Contact:</strong> 123-456-7890
                         </p>
                     </div>
-
                     <div>
                         <h3 className="text-xl font-semibold text-white mb-4">What We Do?</h3>
                         <ul className="text-gray-300">
                             <li className="mb-2">
-                                <Link to="#" className="hover:text-gray-400">
+                                <Link to="/ourServices" className="hover:text-gray-400">
                                     Web Application Development
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <Link to="#" className="hover:text-gray-400">
+                                <Link to="/ourServices" className="hover:text-gray-400">
                                     Mobile Application Development
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <Link to="#" className="hover:text-gray-400">
+                                <Link to="/ourServices" className="hover:text-gray-400">
                                     Software Security
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <Link to="#" className="hover:text-gray-400">
+                                <Link to="/ourServices" className="hover:text-gray-400">
                                     Wordpress Development
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <Link to="#" className="hover:text-gray-400">
+                                <Link to="/ourServices" className="hover:text-gray-400">
                                     E-Commerce Development
                                 </Link>
                             </li>
                             <li>
-                                <Link to="#" className="hover:text-gray-400">
+                                <Link to="/ourServices" className="hover:text-gray-400">
                                     UI/UX Development
                                 </Link>
                             </li>
@@ -74,6 +73,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <small>© 2023 Bangla Network. All Rights Reserved.</small>
             </div>
         </footer>
     );
