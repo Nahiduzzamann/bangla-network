@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,85 +22,85 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </button>
                         {isOpen && <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a
-                                href="#"
+                            <li><Link
+                                to="/"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Home
-                            </a></li>
-                            <a
-                                href="#"
+                            </Link></li>
+                            <Link
+                                to="/about"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 About
-                            </a>
-                            <li><a
-                                href="#"
+                            </Link>
+                            <li><Link
+                                to="#"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Our Services
-                            </a></li>
-                            <li><a
-                                href="#"
+                            </Link></li>
+                            <li><Link
+                                to="#"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Gallery
-                            </a></li>
-                            <li><a
-                                href="#"
+                            </Link></li>
+                            <li><Link
+                                to="#"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Career
-                            </a></li>
-                            <li><a
-                                href="#"
+                            </Link></li>
+                            <li><Link
+                                to="#"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Contact
-                            </a></li>
+                            </Link></li>
 
                         </ul>}
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Bangla Network</a>
+                    <Link className="btn btn-ghost normal-case text-xl">Bangla Network</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a
-                            href="#"
+                        <li><Link
+                            to="/"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Home
-                        </a></li>
-                        <a
-                            href="#"
+                        </Link></li>
+                        <Link
+                            to="/about"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             About
-                        </a>
-                        <li><a
-                            href="#"
+                        </Link>
+                        <li><Link
+                            to="#"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Our Services
-                        </a></li>
-                        <li><a
-                            href="#"
+                        </Link></li>
+                        <li><Link
+                            to="#"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Gallery
-                        </a></li>
-                        <li><a
-                            href="#"
+                        </Link></li>
+                        <li><Link
+                            to="#"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Career
-                        </a></li>
-                        <li><a
-                            href="#"
+                        </Link></li>
+                        <li><Link
+                            to="#"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Contact
-                        </a></li>
+                        </Link></li>
 
                     </ul>
                 </div>
@@ -112,12 +113,12 @@ const Navbar = () => {
                         </button>
                         {isOpenToggleProfile && <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                             <li>
-                                <a className="justify-between">
+                                <Link className="justify-between">
                                     Profile
-                                </a>
+                                </Link>
                             </li>
-                            <li><a>Settings</a></li>
-                            <li><a>Logout</a></li>
+                            <li><Link>Settings</Link></li>
+                            <li><Link>Logout</Link></li>
                         </ul>}
                     </div>
                 </div>
