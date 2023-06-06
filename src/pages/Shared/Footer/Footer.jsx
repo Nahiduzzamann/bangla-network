@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -22,33 +22,28 @@ const Footer = () => {
                         <ul className="text-gray-300">
                             <li className="mb-2">
                                 <Link to="/ourServices" className="hover:text-gray-400">
-                                    Web Application Development
+                                    Communication and Telecommunication Networks
                                 </Link>
                             </li>
                             <li className="mb-2">
                                 <Link to="/ourServices" className="hover:text-gray-400">
-                                    Mobile Application Development
-                                </Link>
+                                    Broadband Services and Data Transmission                                </Link>
                             </li>
                             <li className="mb-2">
                                 <Link to="/ourServices" className="hover:text-gray-400">
-                                    Software Security
-                                </Link>
+                                    IP Phone, WIFI, and Internet Services                                </Link>
                             </li>
                             <li className="mb-2">
                                 <Link to="/ourServices" className="hover:text-gray-400">
-                                    Wordpress Development
-                                </Link>
+                                    Integrated Solutions and Information Systems                                </Link>
                             </li>
                             <li className="mb-2">
                                 <Link to="/ourServices" className="hover:text-gray-400">
-                                    E-Commerce Development
-                                </Link>
+                                    Information Technology Services and Emerging Technologies                                </Link>
                             </li>
                             <li>
                                 <Link to="/ourServices" className="hover:text-gray-400">
-                                    UI/UX Development
-                                </Link>
+                                    Outsourcing Services and Equipment Manufacturing                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -62,9 +57,13 @@ const Footer = () => {
                             <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">
                                 <FaTwitter />
                             </a>
+                            <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">
+                                <FaLinkedin />
+                            </a>
                             <a href="#" className="text-gray-300 hover:text-gray-400">
                                 <FaInstagram />
                             </a>
+
                         </div>
                         <div className="mt-4">
                             <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded">
