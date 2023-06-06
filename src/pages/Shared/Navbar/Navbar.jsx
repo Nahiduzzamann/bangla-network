@@ -40,12 +40,12 @@ const Navbar = () => {
                             >
                                 Our Services
                             </Link></li>
-                            <li><Link
+                            {/* <li><Link
                                 to="#"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                             >
                                 Gallery
-                            </Link></li>
+                            </Link></li> */}
                             <li><Link
                                 to="#"
                                 className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
@@ -83,12 +83,12 @@ const Navbar = () => {
                         >
                             Our Services
                         </Link></li>
-                        <li><Link
+                        {/* <li><Link
                             to="#"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
                         >
                             Gallery
-                        </Link></li>
+                        </Link></li> */}
                         <li><Link
                             to="#"
                             className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"

@@ -7,7 +7,7 @@ const OurCompany = () => {
             <h2 className="text-center text-4xl mb-7 mt-7 text-white">Why Choose Bangla Network</h2>
             <div>
                 <div className="relative">
-                    <Parallax bgImage="https://i.ibb.co/Kwcj4yP/IMG-1630.jpg" strength={500}>
+                    <Parallax bgImage="https://i.ibb.co/nrjNc9r/wisp.jpg" strength={500}>
                         <div className="h-screen bg-black bg-opacity-60">
                             <div className="flex flex-col justify-center items-center h-screen pt-20 pl-2 pr-2">
                                 <div className="container mx-auto py-12 flex flex-col lg:flex-row">
@@ -28,11 +28,9 @@ const OurCompany = () => {
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 mt-12 lg:mt-0 lg:pl-12 shadow-2xl shadow-gray-800">
-                                        <h2 className="text-xl md:text-3xl font-bold mb-4 text-white">There are several reasons why you should choose our company. Here are a few key points:</h2>
+                                        <h2 className="text-xl md:text-3xl font-bold mb-4 text-white">There are several reasons why you should choose our company.</h2>
                                         <p className=" text-sm md:text-base text-white">
-                                            1. Expertise and Experience: Our company has a team of highly skilled professionals with extensive expertise and experience in the technical field. <br />
-                                            2. Innovative Solutions: We are committed to providing innovative solutions tailored to meet your specific needs. <br />
-                                            3. Customer Satisfaction: Customer satisfaction is our top priority. We strive to build long-term relationships with our clients by delivering exceptional services and support. We listen to your requirements, communicate effectively, and provide solutions that exceed your expectations.
+                                        Our system offers a comprehensive range of communication and telecommunication services, including basic/fixed line, cellular/mobile, wireless, and satellite services. We provide broadband services, data transmission, and advanced technologies like computer networks and intelligent networks. Our expertise extends to IP phone, WiFi, and internet solutions, including wireless tower installation and importing related goods. We excel in developing integrated solutions, software applications, and cloud-hosted business platforms. With a focus on emerging technologies, we offer services in areas such as data analytics, system administration, and enterprise mobility. Additionally, we provide outsourcing services and supply equipment for various industries. By choosing our system, you gain access to a wide range of services, cutting-edge technology, and comprehensive solutions tailored to your needs.
                                         </p>
                                     </div>
                                 </div>
