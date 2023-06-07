@@ -66,9 +66,9 @@ const Footer = () => {
 
                         </div>
                         <div className="mt-4">
-                            <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded">
+                            <Link to='/contact' className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded">
                                 Send Message
-                            </button>
+                            </Link >
                         </div>
                     </div>
                 </div>

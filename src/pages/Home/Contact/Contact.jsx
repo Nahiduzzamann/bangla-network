@@ -34,9 +34,10 @@ const Contact = () => {
                         <p className="mt-2">Phone: 01713337752</p>
                         <p className="mt-2">Email: info@example.com</p>
                         <div className="mt-4">
-                            <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-2">Facebook</a>
-                            <a href="https://www.twitter.com/example" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-2">Twitter</a>
-                            <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Instagram</a>
+                            <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Facebook</a>
+                            <a href="https://www.twitter.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Twitter</a>
+                            <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Instagram</a>
+                            <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline">LinkedIn</a>
                         </div>
                     </div>
                     <div className="mt-6">
