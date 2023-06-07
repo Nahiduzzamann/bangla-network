@@ -55,19 +55,14 @@ const Navbar = () => {
                                     Our Services
                                 </NavLink>
                             </li>
-                            {/* <li><NavLink
-                                to="#"
-                                className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
-                            >
-                                Gallery
-                            </NavLink></li> */}
+
                             <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                                <Link
-                                    to="#"
+                                <NavLink
+                                    to="missionVision"
 
                                 >
-                                    Career
-                                </Link>
+                                    Mission & Vision
+                                </NavLink>
                             </li>
                             <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                                 <NavLink
@@ -104,19 +99,13 @@ const Navbar = () => {
                             >
                                 Our Services
                             </NavLink></li>
-                        {/* <li><Link
-                            to="#"
-                            className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
-                        >
-                            Gallery
-                        </Link></li> */}
                         <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                            <Link
-                                to="/"
+                            <NavLink
+                                to="/missionVision"
 
                             >
-                                Career
-                            </Link>
+                                Mission & Vision
+                            </NavLink>
                         </li>
                         <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                             <NavLink
@@ -131,7 +120,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     {
-                        
+
                         user ?
                             <>
                                 <div className="dropdown dropdown-end">

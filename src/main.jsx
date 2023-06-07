@@ -15,6 +15,7 @@ import OurServices from './pages/Home/OurServices/OurServices';
 import Login from './pages/Login/Login';
 import Registration from './pages/SignUp/Registration';
 import AuthProvider from './providers/AuthProvider';
+import MissionVission from './pages/MissionVission/MissionVission';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "/registration",
         element: <Registration></Registration>
+      },
+      {
+        path: "/missionVision",
+        element: <MissionVission></MissionVission>
       },
     ],
   },

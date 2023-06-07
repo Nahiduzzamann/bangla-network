@@ -1,34 +1,47 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faWifi,
+    faNetworkWired,
+    faBrain,
+    faGlobe,
+    faPhone
+} from '@fortawesome/free-solid-svg-icons';
 const Services = () => {
     const [expanded, setExpanded] = useState(false);
 
     const services = [
         {
-            title: "Communication and Telecommunication Networks",
-            description: "To plan, install, operate, provide and maintain all types of local, national and international communication and telecommunication networks, systems, services, including but not limited to basic/fixed line services, cellular/mobile services, wireless services, satellite services and other telephony or communications services, value added voice, video and data services, new business services related thereto, message relay, facsimile, electronic mail services, television, tele-computing, telematics, audio and video conferencing services, maritime and aeronautical communication services, paging, video text, audio text, voice mail, data systems, private switching network services, leased line communication services.",
+            title: "Broadband Service",
+            description: "Broadband service provides high-speed internet connectivity to users, allowing for faster data transmission and reliable internet access. It enables users to browse the web, stream media, download files, and engage in online activities seamlessly. With broadband service, users can enjoy a smooth and uninterrupted internet experience, whether for personal or business purposes.",
+            icon: <FontAwesomeIcon color="#48bb78" icon={faWifi} />
         },
         {
-            title: "Broadband Services and Data Transmission",
-            description: "To carry on the Business of broadband services, transmission networks of all types including computer networks, intelligent networks, globally managed data networks, international gateway networks and related services, data transmission, information technology enabled and related services, cloud services, managed services, customer care centers, customer relationship management, multimedia services, data center services, whether separately or converged together, and to procure all such licenses, authorizations, sanctions, Registrations, approvals and permissions from the relevant authorities as may be required from time to time for provision and carrying out of such services, activities and businesses, and to secure any renewals, extensions for all such licenses, authorizations, sanctions, registrations, approvals and permissions.",
+            title: "Transmission Network",
+            description: "A transmission network is a vital component of the telecommunications infrastructure. It encompasses the network infrastructure and technologies used to transmit data, voice, and video signals over long distances. Transmission networks employ various technologies such as fiber optics, microwave links, and satellite communication to ensure efficient and reliable transmission of information between different locations. These networks form the backbone of telecommunications systems and support the seamless transfer of data across vast geographical areas.",
+            icon: <FontAwesomeIcon color="#48bb78" icon={faNetworkWired} />
         },
         {
-            title: "IP Phone, WIFI, and Internet Services",
-            description: "To carry on the business of IP phone, WIFI, Internet sale, Connection and customers service, all IP phone, Internet, WIFI connection of District Upazila and Union level. Installation of wireless towers at District Upazila and Union Level, Importer of all types IP Phone, wifi and internet based goods. Providing walkie-talkie connections, importation, sale, and services for different categories of offices and companies. internet service provider and to provide, render or make available and operate, sell, export, import, trade, maintain, improve, repair, service, research, develop all kinds of services and to provide services in respect of and relating to bandwidth, hosting of websites, broadcasting, content delivery, internet telephony, over-the-top (OTT) services, telecommunications or wireless communications through internet or any other electronic media, and deal or trade in accessories, assemblies, apparatus, spares, hardware and software for such services.",
+            title: "Intelligent Networks",
+            description: "Intelligent networks refer to advanced telecommunications networks that incorporate sophisticated features and capabilities. These networks are designed to provide enhanced services and intelligent routing of communications. Intelligent networks enable features such as call routing, call forwarding, voice recognition, and data integration. By leveraging intelligent network technologies, service providers can offer innovative services and personalized experiences to their customers.",
+            icon: <FontAwesomeIcon color="#48bb78" icon={faBrain} />
         },
         {
-            title: "Integrated Solutions and Information Systems",
-            description: "To carry on all kinds of end to end integrated solutions involving information systems, developing, designing, marketing of communication platforms), with features and functionality including those related to social, commerce, messaging, communication, gaming and other online services, cloud hosted business platforms and computer and web based application products, systems, peripherals and materials, software packages and applications, client server applications, and to undertake the business of system and network integration, development and management, product application and development, computer maintenance and technical support services, internet access, networking and electronic media, telecommunication and web commerce application services and any combination thereof, and to set up, implement, sell and provide other telecommunication, information technology and related businesses as may evolve with advancement or changes in technology.",
+            title: "International Gateway",
+            description: "An international gateway is a crucial point of connection between different countries' telecommunications networks. It serves as the entry and exit point for international voice and data traffic. International gateways facilitate the exchange of information between networks across borders, enabling global communication and connectivity. These gateways play a significant role in enabling international voice calls, internet access, and data transfer between countries.",
+            icon: <FontAwesomeIcon color="#48bb78" icon={faGlobe} />
         },
         {
-            title: "Information Technology Services and Emerging Technologies",
-            description: "To carry on the business of providing information technology services in the digital space and other emerging technologies including but not limited to enterprise search, data capability, data mining, data analytics, enterprise mobility, system administration, web software engineering, enterprise solutions, managed security solutions, information management including B2B, ecommerce and m-commerce (mobile commerce), business information and other applications, risk management, communication management, network management, facilitation of electronic transactions as well as other internet related services, system integration, intelligent networks, multi-media, enterprise resource planning, electronic communication, client service technologies & solutions, automation systems & processes, Internet of Things (IoT) related products & systems, artificial intelligence technology & systems.",
+            title: "IP phone",
+            description: "An IP phone, also known as a VoIP (Voice over Internet Protocol) phone, uses internet connectivity to make voice calls. It converts voice signals into digital data and transmits them over an IP network, such as the internet. IP phones offer features like call forwarding, voicemail, conference calling, and more. They provide a cost-effective and flexible solution for voice communication, particularly for businesses and individuals seeking to leverage the advantages of internet-based telephony.",
+            icon: <FontAwesomeIcon color="#48bb78" icon={faPhone} />
         },
         {
-            title: "Outsourcing Services and Equipment Manufacturing",
-            description: "To carry on the business of providing outsourcing services for all processes, sub Processes, activities and all other work performed by business in various industries within Bangladesh and across the world. To manufacture, buy, purchase, hire-purchase, acquire, assemble, repair, design, alter, develop, improve, exchange, let on hire, export, import, sell, re-sell, and deal in all sorts of equipment, plant & machineries, accessories, assemblies, apparatus, instruments, devices, spares, components, parts, sub-parts, tools, goods, articles, hardware and software required for or in furtherance of the business activities of the Company.",
+            title: "Wi-Fi",
+            description: "Wi-Fi, short for Wireless Fidelity, refers to wireless networking technology that allows devices to connect to a local area network (LAN) wirelessly. It enables devices such as smartphones, laptops, and tablets to access the internet without the need for physical wired connections. Wi-Fi networks are commonly found in homes, offices, public spaces, and other locations, providing convenient and flexible internet connectivity to users within the network's range.",
+            icon: <FontAwesomeIcon color="#48bb78" icon={faWifi} />
         },
     ];
     return (
@@ -46,36 +59,29 @@ const Services = () => {
                                 >
                                     <div className="p-6 bg-gray-400 rounded-lg shadow hover:bg-gray-900 hover:shadow-lg transform hover:scale-110 transition-all duration-500 h-full overflow-hidden">
                                         <div className="flex items-center mb-2">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="h-6 w-6 mr-2 text-blue-500"
-                                                fill="none"
-                                                viewBox="0 0 24 24"
-                                                stroke="currentColor"
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    strokeWidth="2"
-                                                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                                                />
-                                            </svg>
-                                            <h3 className="text-lg text-white font-semibold">{service.title}</h3>
+                                            {service.icon}
+                                            <h3 className="text-lg ml-2 text-white font-semibold">{service.title}</h3>
                                         </div>
-                                        <p className={`text-gray-700 ${expanded ? '' : 'truncate'}`}>
+                                        <p className={`text-gray-700  ${expanded ? '' : 'truncate'}`}>
                                             {service.description}
                                         </p>
-                                        <div className="w-full flex justify-center mt-3 relative">
-                                            <Link to='ourServices'
+                                        {/* <div className="w-full flex justify-center mt-3 relative">
+                                            <Link to='/ourServices'
                                                 className="bg-gray-800 text-white py-1 px-2 rounded-lg transition-colors duration-300 hover:bg-gray-600 fixed bottom-2"
                                             >
                                                 Go For Details
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             ))}
+                            <Link to='/ourServices'
+                                className="bg-gray-800 text-white py-2 px-4 rounded-lg transition-colors duration-300 hover:bg-gray-600"
+                            >
+                                See More & Details Services
+                            </Link>
                         </div>
+
                     </div>
                 </div>
             </div>
