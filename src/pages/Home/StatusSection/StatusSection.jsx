@@ -3,7 +3,7 @@ import { FaUsers, FaTasks, FaUsersCog } from "react-icons/fa";
 const StatusSection = () => {
     return (
         <div className="mt-10 lg:mt-24">
-            <div className="bg-gray-600 py-12 px-4 sm:px-6 lg:px-8">
+            <div className=" py-12 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                         <div className="flex items-center p-6 bg-white rounded-lg shadow-lg">
