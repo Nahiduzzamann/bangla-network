@@ -1,6 +1,6 @@
 const MissionVission = () => {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen mt-20">
             <div className="container mx-auto py-12">
                 <h1 className="text-4xl font-bold text-center mb-8">Mission & Vision</h1>
                 <div className="flex flex-wrap">

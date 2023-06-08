@@ -1,9 +1,9 @@
 
 const About = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto mt-20">
             <div className="uppercase text-white mt-4">
-                <h3 className="text-center text-3xl">
+                <h3 className="text-center text-3xl pt-8">
                     THE COMPANIES ACT, 1994 <br />
                     (ACT XVIII OF 1994) <br />
                     A PRIVATE COMPANY
@@ -15,7 +15,7 @@ const About = () => {
                     BANGLA NETWORK LTD.
                 </h2>
             </div>
-            <div className="text-white mt-8 text-lg ml-4">
+            <div className="text-white mt-10 text-lg ml-4">
                 <p>
                     I. &nbsp;&nbsp;The name of the company is BANGLA NETWORK LTD. <br />
                     II. &nbsp;The registered office of the company shall be situated in Bangladesh. <br />
