@@ -66,6 +66,14 @@ const Navbar = () => {
                             </li>
                             <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                                 <NavLink
+                                    to="productsSolutions"
+
+                                >
+                                    Products & Solutions
+                                </NavLink>
+                            </li>
+                            <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <NavLink
                                     to="/contact"
                                 >
                                     Contact
@@ -78,12 +86,12 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"><NavLink
+                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium"><NavLink
                             to="/"
                         >
                             Home
                         </NavLink></li>
-                        <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
                             <NavLink
                                 to="/about"
 
@@ -92,14 +100,14 @@ const Navbar = () => {
                             </NavLink>
                         </li>
 
-                        <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
                             <NavLink
                                 to="/ourServices"
 
                             >
                                 Our Services
                             </NavLink></li>
-                        <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
                             <NavLink
                                 to="/missionVision"
 
@@ -107,7 +115,15 @@ const Navbar = () => {
                                 Mission & Vision
                             </NavLink>
                         </li>
-                        <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                            <NavLink
+                                to="/productsSolutions"
+
+                            >
+                                Products & Solutions
+                            </NavLink>
+                        </li>
+                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
                             <NavLink
                                 to="/contact"
 

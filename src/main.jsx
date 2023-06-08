@@ -16,6 +16,7 @@ import Login from './pages/Login/Login';
 import Registration from './pages/SignUp/Registration';
 import AuthProvider from './providers/AuthProvider';
 import MissionVission from './pages/MissionVission/MissionVission';
+import ProductsSolutions from './pages/ProductsSolutions/ProductsSolutions';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/missionVision",
         element: <MissionVission></MissionVission>
+      },
+      {
+        path: "/productsSolutions",
+        element: <ProductsSolutions></ProductsSolutions>
       },
     ],
   },

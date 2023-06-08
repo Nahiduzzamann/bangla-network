@@ -29,7 +29,7 @@ const OurCompany = () => {
                                     </div>
                                     <div className="lg:w-1/2 mt-12 lg:mt-0 lg:pl-12 shadow-2xl shadow-gray-800">
                                         <h2 className="text-xl md:text-3xl font-bold mb-4 text-white">There are several reasons why you should choose our company.</h2>
-                                        <p className=" text-sm md:text-base text-white">
+                                        <p className=" text-sm md:text-base text-gray-100">
                                         Our system offers a comprehensive range of communication and telecommunication services, including basic/fixed line, cellular/mobile, wireless, and satellite services. We provide broadband services, data transmission, and advanced technologies like computer networks and intelligent networks. Our expertise extends to IP phone, WiFi, and internet solutions, including wireless tower installation and importing related goods. We excel in developing integrated solutions, software applications, and cloud-hosted business platforms. With a focus on emerging technologies, we offer services in areas such as data analytics, system administration, and enterprise mobility. Additionally, we provide outsourcing services and supply equipment for various industries. By choosing our system, you gain access to a wide range of services, cutting-edge technology, and comprehensive solutions tailored to your needs.
                                         </p>
                                     </div>

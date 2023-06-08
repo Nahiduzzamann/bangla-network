@@ -65,14 +65,14 @@ const Footer = () => {
                             </a>
 
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 mb-4">
                             <Link to='/contact' className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded">
                                 Send Message
                             </Link >
                         </div>
                     </div>
                 </div>
-                <small>© 2023 Bangla Network. All Rights Reserved.</small>
+                <small className=''>© 2023 Bangla Network. All Rights Reserved.</small>
             </div>
         </footer>
     );
