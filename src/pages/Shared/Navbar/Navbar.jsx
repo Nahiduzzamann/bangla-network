@@ -23,6 +23,29 @@ const Navbar = () => {
             .catch(error => console.log(error.message))
     }
 
+    const[proPic, setProPic]=useState('https://i.ibb.co/0Q4M1MX/blank-img.jpg')
+    ///profile img check
+    function checkImageValidity(url) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => resolve(true); // Image loaded successfully
+            img.onerror = () => resolve(false); // Image failed to load
+            img.src = url;
+        });
+    }
+
+    if (user) {
+        // Usage example
+        const imageUrl = user.photoURL;
+        checkImageValidity(imageUrl)
+            .then((isValid) => {
+                if(isValid){
+                    setProPic(user.photoURL )
+                }
+            })
+            .catch((error) => console.error("Error occurred:", error));
+    }
+
     return (
 
         <nav className='bg-gray-800'>
@@ -141,7 +164,7 @@ const Navbar = () => {
                             <>
                                 <div className="dropdown dropdown-end">
                                     <button onClick={toggleProfile} tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                                        <img src={user.photoURL || 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png'} alt="Picture" className="h-8 w-8 rounded-full" />
+                                        <img src={proPic} alt="" className="h-8 w-8 rounded-full" />
                                     </button>
                                     {isOpenToggleProfile && <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                                         <li>

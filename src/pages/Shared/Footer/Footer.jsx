@@ -10,8 +10,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-semibold text-white mb-4">Bangla Network</h3>
                         <p className="text-gray-300 mb-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget felis at nunc
-                            dignissim bibendum. Aenean tristique nulla vitae tristique cursus.
+                        Our system provides a comprehensive range of communication and telecommunication services, including basic/fixed line, cellular/mobile, wireless. By choosing our survices, you gain access to a wide range of services, cutting-edge technology, and tailored solutions.
                         </p>
                         <p className="text-gray-300 mb-4">
                             <strong>Contact:</strong> +8801713337752
@@ -72,7 +71,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <small className=''>© 2023 Bangla Network. All Rights Reserved.</small>
+                <small className='ml-4'>© 2023 Bangla Network. All Rights Reserved.</small>
             </div>
         </footer>
     );

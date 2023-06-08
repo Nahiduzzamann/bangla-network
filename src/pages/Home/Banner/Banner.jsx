@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="bg-cover bg-center py-16 md:py-32" style={{ backgroundImage: 'url(https://i.ibb.co/D7JLDqz/IMG-1629.jpg)' }}>
       <div className="container mx-auto px-4 p-8 text-center bg-black bg-opacity-50 shadow-2xl rounded-2xl">
-        <h1 className="text-4xl md:text-6xl text-white font-bold mb-4">Welcome to Bangla Network</h1>
+        <h1 className="text-4xl md:text-6xl text-white font-bold mb-4">Welcome to <span className='text-orange-400'>Bangla Network</span></h1>
         <h3 className='flex flex-wrap justify-center'>
           <span className='text-gray-300 text-3xl font-semibold'>
             Take Your Business &nbsp;
