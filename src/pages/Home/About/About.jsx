@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div className="container mx-auto mt-20">
+        <div className="container mx-auto pt-20">
             <div className="uppercase text-white mt-4">
                 <h3 className="text-center text-3xl pt-8">
                     THE COMPANIES ACT, 1994 <br />

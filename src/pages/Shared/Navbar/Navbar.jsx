@@ -167,12 +167,12 @@ const Navbar = () => {
                                         <img src={proPic} alt="" className="h-8 w-8 rounded-full" />
                                     </button>
                                     {isOpenToggleProfile && <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
-                                        <li>
+                                        {/* <li>
                                             <Link className="justify-between">
                                                 Profile
                                             </Link>
                                         </li>
-                                        <li><Link>Settings</Link></li>
+                                        <li><Link>Settings</Link></li> */}
                                         <li><button onClick={handleLogout}>Logout</button></li>
                                     </ul>}
                                 </div>
