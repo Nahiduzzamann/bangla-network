@@ -10,7 +10,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-semibold text-white mb-4">Bangla Network</h3>
                         <p className="text-gray-300 mb-4">
-                        Our system provides a comprehensive range of communication and telecommunication services, including basic/fixed line, cellular/mobile, wireless. By choosing our survices, you gain access to a wide range of services, cutting-edge technology, and tailored solutions.
+                            Our system provides a comprehensive range of communication and telecommunication services, including basic/fixed line, cellular/mobile, wireless. By choosing our survices, you gain access to a wide range of services, cutting-edge technology, and tailored solutions.
                         </p>
                         <p className="text-gray-300 mb-4">
                             <strong>Contact:</strong> +8801713337752
@@ -50,7 +50,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-semibold text-white mb-4">Follow Us</h3>
                         <div className="flex items-center">
-                            <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">
+                            <a href="https://www.facebook.com/people/SJS-Freelancing-It-Instituted/100092527967098/" target='blank' className="text-gray-300 hover:text-gray-400 mr-4">
                                 <FaFacebook />
                             </a>
                             <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">

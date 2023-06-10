@@ -61,7 +61,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='bg-gray-900 m-0'>
+    <div className='bg-gradient-to-r from-gray-700 via-gray-500 to-gray-300 m-0'>
       <AuthProvider>
         <RouterProvider router={router} />
       </AuthProvider>
