@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 const OurCompany = () => {
     return (
         <div className="container mx-auto">
-            <h3 className="text-center text-3xl mt-10 lg:mt-24 text-gray-600">Our Company</h3>
+            <h3 className="text-center text-3xl mt-10 lg:mt-24 text-orange-500">Our Company</h3>
             <h2 className="text-center text-4xl mb-7 mt-7 text-white">Why Choose Bangla Network</h2>
             <div>
                 <div className="relative">
