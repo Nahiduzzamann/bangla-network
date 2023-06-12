@@ -50,7 +50,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-semibold text-white mb-4">Follow Us</h3>
                         <div className="flex items-center">
-                            <a href="https://www.facebook.com/people/SJS-Freelancing-It-Instituted/100092527967098/" target='blank' className="text-gray-300 hover:text-gray-400 mr-4">
+                            <a href="https://www.facebook.com/people/UK-Bangla-Network-Ltd/100083789013283/" target='blank' className="text-gray-300 hover:text-gray-400 mr-4">
                                 <FaFacebook />
                             </a>
                             <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">
