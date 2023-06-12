@@ -47,7 +47,7 @@ const Banner = () => {
 
   return (
     <div
-      className="bg-cover bg-center py-16 md:py-32 mt-20"
+      className="bg-cover bg-center py-16 md:py-32 "
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
       <div className="container mx-auto px-4 p-8 text-center bg-black bg-opacity-50 shadow-2xl rounded-2xl">

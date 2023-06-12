@@ -52,7 +52,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="bg-gray-800 fixed top-0 left-0 right-0 z-50 shadow-lg">
+        <nav className="bg-black bg-opacity-50 fixed top-0 left-0 right-0 z-50 shadow-lg">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown ">
@@ -82,53 +82,53 @@ const Navbar = () => {
                                 tabIndex={0}
                                 className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-gray-900"
                             >
-                                <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                                     <NavLink onClick={handleDropdown} to="/">Home</NavLink>
                                 </li>
-                                <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                                     <NavLink onClick={handleDropdown} to="/about">About</NavLink>
                                 </li>
-                                <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                                     <NavLink onClick={handleDropdown} to="/ourServices">Our Services</NavLink>
                                 </li>
-                                <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                                     <NavLink onClick={handleDropdown} to="missionVision">Mission & Vision</NavLink>
                                 </li>
-                                <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                                     <NavLink onClick={handleDropdown} to="productsSolutions">
                                         Products & Solutions
                                     </NavLink>
                                 </li>
-                                <li className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                <li className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium">
                                     <NavLink onClick={handleDropdown} to="/contact">Contact</NavLink>
                                 </li>
                             </ul>
                         )}
                     </div>
-                    <Link className="btn btn-ghost normal-case text-xl">
+                    <Link className="btn btn-ghost text-white normal-case text-xl">
                         Bangla Network
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                        <li className="text-white  hover:bg-gray-700 py-2 rounded-md text-lg ">
                             <NavLink to="/">Home</NavLink>
                         </li>
-                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                        <li className="text-white  hover:bg-gray-700 py-2 rounded-md text-lg ">
                             <NavLink to="/about">About</NavLink>
                         </li>
-                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                        <li className="text-white  hover:bg-gray-700 py-2 rounded-md text-lg ">
                             <NavLink to="/ourServices">Our Services</NavLink>
                         </li>
-                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                        <li className="text-white  hover:bg-gray-700 py-2 rounded-md text-lg ">
                             <NavLink to="/missionVision">Mission & Vision</NavLink>
                         </li>
-                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                        <li className="text-white  hover:bg-gray-700 py-2 rounded-md text-lg ">
                             <NavLink to="/productsSolutions">
                                 Products & Solutions
                             </NavLink>
                         </li>
-                        <li className="text-gray-300 hover:bg-gray-700 py-2 rounded-md text-sm font-medium">
+                        <li className="text-white  hover:bg-gray-700 py-2 rounded-md text-lg ">
                             <NavLink to="/contact">Contact</NavLink>
                         </li>
                     </ul>
@@ -171,7 +171,7 @@ const Navbar = () => {
                         <>
                             <Link
                                 to="login"
-                                className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                                className="text-white  hover:bg-gray-700 px-3 py-2 rounded-md lgxedium"
                             >
                                 Log In
                             </Link>
