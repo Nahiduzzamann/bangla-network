@@ -53,7 +53,7 @@ const Footer = () => {
                             <a href="https://www.facebook.com/people/UK-Bangla-Network-Ltd/100083789013283/" target='blank' className="text-gray-300 hover:text-gray-400 mr-4">
                                 <FaFacebook />
                             </a>
-                            <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">
+                            <a href="https://twitter.com/NetworkLtd71595" target='blank' className="text-gray-300 hover:text-gray-400 mr-4">
                                 <FaTwitter />
                             </a>
                             <a href="#" className="text-gray-300 hover:text-gray-400 mr-4">
