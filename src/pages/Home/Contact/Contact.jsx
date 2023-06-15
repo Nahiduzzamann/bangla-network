@@ -32,10 +32,10 @@ const Contact = () => {
                     <div className="mt-6">
                         <h2 className="text-lg font-bold">Contact Information</h2>
                         <p className="mt-2">Phone: 01713337752</p>
-                        <p className="mt-2">Email: info@example.com</p>
+                        <p className="mt-2">Email: banglanetworkltd@gmail.com</p>
                         <div className="mt-4">
-                            <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Facebook</a>
-                            <a href="https://www.twitter.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Twitter</a>
+                            <a href="https://www.facebook.com/people/UK-Bangla-Network-Ltd/100083789013283/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Facebook</a>
+                            <a href="https://twitter.com/NetworkLtd71595" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Twitter</a>
                             <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline mr-2">Instagram</a>
                             <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:underline">LinkedIn</a>
                         </div>
